@@ -6,7 +6,7 @@ from time import sleep
 
 mainScene =canvas(title = "Simple Pendulum", height = 700, width = 1000, background = color.green, align = "left")
 mainScene.camera.pos = vector(0, -0.5, 0)
-
+pi = np.pi
 #constants:
 m=1
 L=1
@@ -14,7 +14,7 @@ b=0.5 #damping
 g=9.81
 dt = 0.02
 tmax = 20
-theta1_0 = np.pi/2
+theta1_0 = pi/2
 theta2_0=0.
 theta_init = (theta1_0, theta2_0)
 
