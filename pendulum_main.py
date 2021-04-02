@@ -65,7 +65,6 @@ def animate():
     angle_label = label(pos = vector(-1,0,0), text = "Angle:")
     omega_label = label(pos = vector(1,0,0), text = "Angular Velocity:")
     sleep(0.5)
-    #rod2 = curve(vector(1,0,1), vector(0,0,0))
 
     #moves line and ball
     for i in range(int(tmax/dt)):
@@ -91,5 +90,5 @@ def animate():
     label(pos = vector(0,0,0), text = "Finished") #label that appears when programme has finished
 
 animate()
-#graphing(theta, omega, t)
+graphing(theta, omega, t)
 
