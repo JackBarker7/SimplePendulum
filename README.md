@@ -7,4 +7,4 @@ Using `scipy.integrate.odeint`. Results are then used to generate an animation u
 
 `smallAngleTest.py` demonstrates the effect of using the small angle approximation sin(theta) = theta, allowing the above differential equation to be solved analytically (for b=0) yeilding: 
 
-![equation](https://latex.codecogs.com/gif.latex?\theta&space;=&space;\theta_0\cos{\sqrt{\frac{gt}{l}}}" title="\theta = \theta_0\cos{\sqrt{\frac{gt}{l}}})
+![equation](https://latex.codecogs.com/gif.latex?\theta&space;=&space;\theta_0\cos{\sqrt{\frac{gt}{l}}})
